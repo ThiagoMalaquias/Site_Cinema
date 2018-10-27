@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Shojumaru|Special+Elite|Ultra');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:#000;
+}
+
+.es{
+  background-color: #000;
+  font-family:'Ultra', sans-serif;
+  padding: 10px;
+  font-size: 10pt;
+  color: #42f4ce;
+  height: 25px;
+}
+
+.log ul{
+    padding: 8px 0px;
+    margin: 1px 30px 40px 10px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 1%;
+    left: 84%;  
+}
+
+.log li{
+        display: inline;
+        margin: 0px
+}
+
+header{
+  font-family: 'Shojumaru', cursive;
+  font-size: 20pt;
+  background-color:#42f4ce;
+  color:#000;
+  padding: 10px;
+  height: 20%;
+}
+
+.tes{
+   width: 30%;
+   height: 20px;
+   text-align: center;
+   margin: 3px;
+   font-size: 30pt;
+}
+
+h3{
+  margin:-5px;
+font-family: 'Shojumaru', cursive;
+  font-size: 30pt;
+  color:#000;
+}
+
+p{
+  text-align: justify;
+  text-indent: 30px;
+}
+
+/*menu*/
+
+.menu ul{
+    font-family: 'Ultra', sans-serif;
+    font-size: 15pt;
+    background-color: #42f4ce;
+    height: auto;
+    padding: 8px 0px;
+    margin: 1px 30px 40px 10px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 15%;
+    left: 45%;
+}
+
+.menu li{
+        display: inline;
+        padding: 10px;
+        margin: 0px
+}
+
+.a{
+    text-decoration: none;
+    color:#42f4ce;
+    padding: 8px 8px 8px 8px;
+}
+
+.menu a:hover{
+    color:#42f4ce;
+    background-color:#000;
+    -webkit-transition: 2s; 
+    border-radius: 10px 10px 10px 10px;
+ }
+
+a{
+    text-decoration: none;
+    color:#000;
+    padding: 8px 8px 8px 8px;
+}
+
+/*fieldset-fimes*/
+
+.lan{
+  margin: 30px 40px;
+  padding: 10px;
+  height: 260px;
+}
+
+fieldset{
+  border-color: #42f4ce;
+  background-color: #1d1f23;
+  border-radius: 5px
+}
+
+legend{
+  color: #42f4ce;
+  font-weight: bold;
+  font-size: 20pt;
+  font-family: sans-serif;
+}
+
+/*scroll*/
+
+.div-filmes{
+  margin: 10px 0 0 0;
+  padding: 10px;
+
+}
+
+.scroll{
+  list-style: none;
+  padding: 0;
+  margin: 0 5px;
+  white-space: nowrap;
+  display: flex;
+  width: 1200px;
+  overflow-x: auto;
+  padding: 10px;
+  height: auto;
+}
+
+.scroll::-webkit-scrollbar{
+    background: #42f4ce;
+    color:#ccc;
+    border-radius: 5px;
+    height: 7px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background:#000;
+    border-radius: 10px;
+    height: 5px;
+}
+
+body::-webkit-scrollbar{
+    background-color:#1d1f23;
+   
+}
+
+body::-webkit-scrollbar-button{
+  background: #000;
+  border-radius: 10px;
+}
+.filmes-img{
+   width: 140px;
+   height: 200px;
+   margin: 0 10px 0 0;
+}
+
+/*footer*/
+
+footer{
+   background-color: #42f4ce;
+     color: #000;
+      font-family:'Ultra', sans-serif; 
+     font-size: 12px;
+     text-align: center;
+     text-decoration: none;
+     height: 25px;
+     padding: 8px 10px 10px 30px;
+
+ }
